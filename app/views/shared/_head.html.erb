@@ -7,3 +7,6 @@
 
 <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
 <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+<link rel="canonical" href="<%= url_for(format: :html, only_path: false) %>">
+<link rel="amphtml" href="<%= url_for(format: :amp, only_path: false) %>">
